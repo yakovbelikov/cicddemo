@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.vscode/
+.next/
+node_modules/
+coverage/
+dist/
+build/
+npm-debug.log*
+pnpm-debug.log*
