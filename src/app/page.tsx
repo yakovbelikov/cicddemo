@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { PageLayout } from '@/components/PageLayout';
@@ -5,6 +6,14 @@ import { PageLayout } from '@/components/PageLayout';
 const HomePage = () => (
     <PageLayout>
         <section className="hero">
+            <Image
+                alt="CI/CD pipeline: code, build, deploy"
+                className="hero__image"
+                height={240}
+                priority
+                src="/pipeline-demo.png"
+                width={240}
+            />
             <p className="badge">CI/CD Demo</p>
             <h1>Заглушка для обучения пайплайнам</h1>
             <p className="lead">

@@ -6,7 +6,8 @@
     "scripts": {
         "dev": "cross-env PORT=3010 next dev",
         "build": "next build",
-        "start": "cross-env PORT=3010 next start",
+        "start": "next start",
+        "setup": "pnpm install --frozen-lockfile",
         "lint": "eslint --ext .js,.ts,.tsx ./src",
         "lint:fix": "eslint --ext .js,.ts,.tsx --fix ./src",
         "test": "jest",
