@@ -3,8 +3,9 @@ name: Release to Render
 on: workflow_dispatch
 
 permissions:
-  contents: read
-  packages: write
+  release:
+    contents: read
+    packages: write
 
 jobs:
   release:
