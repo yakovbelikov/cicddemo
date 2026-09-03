@@ -1,1 +1,15 @@
+# Dependencies & build output — rebuilt inside Docker
 node_modules
+.next
+coverage
+
+# Git & CI — not needed in image
+.git
+.github
+
+# Local / IDE
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
