@@ -48,6 +48,14 @@ a {
     gap: 16px;
 }
 
+.hero__image {
+    border: 1px solid #1e293b;
+    border-radius: 16px;
+    height: auto;
+    max-width: 240px;
+    width: 100%;
+}
+
 .badge {
     align-self: flex-start;
     background: rgba(56, 189, 248, 0.15);
